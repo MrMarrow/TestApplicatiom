@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         PersonalPageDrawView drawCross = new PersonalPageDrawView(this);
         LinearLayout layout1 = (LinearLayout) findViewById(R.id.drawcross);
-       // layout1.addView(drawCross);
+        layout1.addView(drawCross);
 
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button2);
         button.setText("Изменения за месяц");
-        button.setX(width * 0.16f);
-        button.setY(height * 0.85f);
+        button.setX(width * 0.19f);
+        button.setY(height * 0.7f);
 
     }
 }
